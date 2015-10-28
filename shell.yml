@@ -4,4 +4,3 @@
   tasks:
   - name: Upgrade Bash
   apt: name=bash state=latest
-  update_cache=yes
