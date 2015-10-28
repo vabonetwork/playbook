@@ -1,5 +1,6 @@
 ---
 - hosts: srvTestVabo 
+  remote_user: vabo
   tasks:
     - name: Installs nginx web server
       apt: pkg=nginx state=installed update_cache=true
